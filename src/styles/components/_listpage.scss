@@ -1,0 +1,48 @@
+.demo-card-square.mdl-card {
+  width: 320px;
+  height: 320px;
+}
+.demo-card-square > .mdl-card__title {
+  color: #fff;
+  background: url("/images/Capture.png") bottom right 15% no-repeat #46b6ac;
+}
+.cards {
+  font-family: Arvo;
+  display: flex;
+
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.name-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+@media only screen and (min-width: 360px) {
+  /* phone */
+  .card {
+    flex: 0 1 calc(100% - 1em);
+  }
+}
+@media only screen and (min-width: 600px) {
+  /* tablet */
+  .card {
+    flex: 0 1 calc(50% - 1em);
+  }
+}
+@media only screen and (min-width: 768px) {
+  /* desktop */
+  .card {
+    flex: 0 1 calc(33% - 1em);
+  }
+}
+
+@media only screen and (min-width: 1366px) {
+  /* big screen */
+  .card {
+    flex: 0 1 calc(25% - 1em);
+  }
+}
+.button_gap {
+  display: flex;
+  justify-content: space-between;
+}
